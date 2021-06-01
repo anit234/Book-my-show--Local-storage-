@@ -74,5 +74,7 @@ container.addEventListener('click', function (e) {
 });
 
 // initial count and total set
+// This function is calling on page load,
+// so number of seat and price is populating in UI
 
 updateSelectedSeatPrice();
